@@ -16,20 +16,20 @@
 
 To create Tuples .....
 
-[Back to top](#tableofcontent)
+[Back to top](#table-of-content)
 
 
 # Out Variables
 
 Bla. bla. bla.
 
-[Back to top](#tableofcontent)
+[Back to top](#table-of-content)
 
 # Pattern matching
 
 Bla. bla. bla.
 
-[Back to top](#tableofcontent)
+[Back to top](#table-of-content)
 
 
 
