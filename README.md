@@ -2,14 +2,17 @@
 ## My First Visual Studio (C# 7) stuff
 
 
-1. Tuples (#Tuples)
+## Table of content
+1. [Tuples](#tuples)
 
 
 
 
-#Tuples
+# Tuples
 
 To create Tuples .....
+
+[Back to top](#tableofcontent)
 
 
 
