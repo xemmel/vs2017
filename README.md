@@ -14,19 +14,26 @@
 
 # Tuples
 
+## install nuget-package
+
+```
+install-package System.ValueTuple
+```
+
+
 ```csharp
 
-		//Anonymous (o.Item1, o.Item2)
-        public (string,string) GetFullName()
-        {
-            return (_firstName, _lastName);
-        }
+//Anonymous (o.Item1, o.Item2)
+public (string,string) GetFullName()
+{
+    return (_firstName, _lastName);
+}
 
-		//Declared (o.firstName, o.lastName)
-        public (string firstName, string lastName) GetStrongFullName()
-        {
-            return (_firstName, _lastName);
-        }
+//Declared (o.firstName, o.lastName)
+public (string firstName, string lastName) GetStrongFullName()
+{
+    return (_firstName, _lastName);
+}
 
 ```
 
