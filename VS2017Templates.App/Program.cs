@@ -16,6 +16,14 @@ namespace VS2017Templates.App
             Console.WriteLine($"Hello {fullNameStrong.firstName} {fullNameStrong.lastName}");
 
 
+            //Out variables
+
+            //Old 
+
+           // string fName, lName;
+            p.GetOutVarName(out string fName, out string lName);
+            Console.WriteLine($"Hello {fName} {lName}");
+
 
         }
     }
@@ -39,6 +47,12 @@ namespace VS2017Templates.App
         public (string firstName, string lastName) GetStrongFullName()
         {
             return (_firstName, _lastName);
+        }
+
+        public void GetOutVarName(out string firstName, out string lastName)
+        {
+            firstName = _firstName;
+            lastName = _lastName;
         }
 
 

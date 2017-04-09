@@ -21,7 +21,11 @@ To create Tuples .....
 
 # Out Variables
 
-Bla. bla. bla.
+```csharp
+           // string fName, lName;
+            p.GetOutVarName(out string fName, out string lName);
+            Console.WriteLine($"Hello {fName} {lName}");
+```
 
 [Back to top](#table-of-content)
 
