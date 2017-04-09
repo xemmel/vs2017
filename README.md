@@ -14,7 +14,21 @@
 
 # Tuples
 
-To create Tuples .....
+```csharp
+
+		//Anonymous (o.Item1, o.Item2)
+        public (string,string) GetFullName()
+        {
+            return (_firstName, _lastName);
+        }
+
+		//Declared (o.firstName, o.lastName)
+        public (string firstName, string lastName) GetStrongFullName()
+        {
+            return (_firstName, _lastName);
+        }
+
+```
 
 [Back to top](#table-of-content)
 
