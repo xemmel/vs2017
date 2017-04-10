@@ -52,7 +52,20 @@ public (string firstName, string lastName) GetStrongFullName()
 
 # Pattern matching
 
-Bla. bla. bla.
+
+```csharp 
+
+ public static void YellIfPossible(Person p)
+        {
+            if (!(p is Boss b))
+            {
+                Console.WriteLine($"{p.GetStrongFullName().firstName} can't yell");
+                return;
+            }
+            b.Yell();
+        }
+
+```
 
 [Back to top](#table-of-content)
 
